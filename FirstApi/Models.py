@@ -9,3 +9,4 @@ class Todos(Base):
     Description = Column(String(250))
     priority = Column(Integer)
     Complete = Column(Boolean, default=False)
+
